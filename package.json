@@ -1,0 +1,31 @@
+{
+  "name": "jormat-formatters",
+  "version": "1.0.0",
+  "description": "Basic formatters for jormat",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/tiaanduplessis/jormat-formatters",
+    "type": "git"
+  },
+  "homepage": "https://github.com/tiaanduplessis/jormat-formatters",
+  "bugs": "https://github.com/tiaanduplessis/jormat-formatters",
+  "main": "index.js",
+   
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest",
+    "format": "prettier-standard index.js",
+    "format:fix": "npm run format -- --fix",
+    "start": "npm run test",
+    "precommit": "npm test",
+    "pretest": "npm run format:fix"
+  },
+  "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
+  "devDependencies": {
+    "jest": "^21.0.2",
+    "husky": "^0.14.3", 
+    "prettier-standard": "^6.0.0"
+  }
+}
