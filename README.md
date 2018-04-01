@@ -56,6 +56,8 @@
 
 ## About
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/jormat-formatters.svg)](https://greenkeeper.io/)
+
 Some basic formatters for [jormat](https://github.com/tiaanduplessis/jormat).
 
 ## Install
